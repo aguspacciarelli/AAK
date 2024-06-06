@@ -1,11 +1,13 @@
-import CardsGrid from "@/app/components/CardsGrid";
+import CardsGrid from "@/app/components/CardsGrid/CardsGrid";
+import Card from "@/app/components/Card/Card";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <CardsGrid />
+        {/* <CardsGrid /> */}
+        <Card />
       </div>
     </main>
   );
