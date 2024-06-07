@@ -6,8 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        {/* <CardsGrid /> */}
-        <Card />
+        <CardsGrid />
       </div>
     </main>
   );

@@ -11,10 +11,10 @@ const CardsGrid = () => {
     setLoading(true);
     const getData = async () => {
       const response = await axios.get(
-        "https://api.harvardartmuseums.org/exhibition?apikey=9ab8ee4a-51ec-4027-9cb4-5e9535dc9cb7&hasimage=1"
+        "https://api.harvardartmuseums.org/publication?apikey=9ab8ee4a-51ec-4027-9cb4-5e9535dc9cb7&hasimage=1"
       );
-      console.log(response.data.records[0]);
-      setData(response.data.records[0]);
+      console.log(response.data);
+      setData(response.data.records);
       setLoading(false);
     };
     getData();
@@ -23,15 +23,18 @@ const CardsGrid = () => {
     <div>
       {loading && <p>Loading...</p>}
       {!loading && (
-        <>
-          <h2>{data[0].title}</h2>
-          <Image
-            src={data.images[0].baseimageurl}
-            alt='no se ve la imagen jaja '
-            width={303}
-            height={232}
-          />
-        </>
+       <div>
+        {data.map((item)=>{
+          return (
+            <Card 
+            key={item}
+            title={item.title}
+            img={item.primaryimageurl}
+            place={item.publicationplace}
+            />
+          )
+        })}
+        </div>
       )}
     </div>
   );
