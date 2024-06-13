@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #fefbcf;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu li a{
+    color: black;
+
+}
