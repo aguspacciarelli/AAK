@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "@/app/components/Card/Card";
-import styles from "./CardsGrid.module.css"
 
 const CardsGrid = () => {
   const [data, setData] = useState([]);
