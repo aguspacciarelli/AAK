@@ -1,7 +1,8 @@
 .container {
-    background-color: #FEFBCF;
+    background-color: #F9F5C4;
+    border-radius: 1em;
     width: 15%;
-    height: 30em;
+    height: 32em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,20 +11,52 @@
     padding: 1em;
 }
 
+.elementsContainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.textContainer {
+    padding: 0.125em 1em;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
 .cardElements {
     margin-bottom: 1em;
     text-align: left;
     font-size: 1em;
 }
 
-
-.textContainer {
-    padding: 0.125em 1em;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
+.boton {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:rgb(184, 134, 87);
+    border: 1px solid transparent;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1em;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
 }
 
-.boton {
-    font-size: 20px;
+.boton:hover {
+    background-color: rgb(192, 128, 67);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgb(255, 255, 255);
+    transform: translateY(-1px);
 }

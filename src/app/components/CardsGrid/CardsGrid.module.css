@@ -1,7 +1,13 @@
+.destacadasElement {
+    font-weight: 600;
+    font-size: 32px;
+    padding: 1em;
+}
+
 .containerCardsGrid {
-display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
