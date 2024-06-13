@@ -3,15 +3,21 @@
  --secondary-color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   max-width: 100vw;
 }
 
 div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   color: black;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
-

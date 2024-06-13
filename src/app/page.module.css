@@ -1,7 +1,10 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
 }
 
+.containerCardsGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FEEECF;
+}

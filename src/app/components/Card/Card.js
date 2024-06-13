@@ -4,12 +4,13 @@ import styles from "./Card.module.css";
 const Card = (props) => {
   const { title, img, place } = props;
   return (
-    <div>
-      <div>
-        <h6>{title}</h6>
-        <Image src={img} alt={title} width={200} height={200} />
-        <p>{place}</p>
+    <div className={styles["container"]}>
+      <Image src={img} alt={title} width={214} height={306} className={styles["cardElements"]}/>
+      <div  className={styles["textContainer"]}>
+      <h4 className={styles["cardElements"]}>{title}</h4>
+      <p className={styles["cardElements"]}>{place}</p>
       </div>
+      <button>Ver más</button>
     </div>
   );
 };
