@@ -2,9 +2,14 @@
   width: 100%;
 }
 
-.containerCardsGrid {
-  display: flex;
+/* .containerCardsGrid {
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #FEEECF;
-}
+  background-color: #FFF; */
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+}*/

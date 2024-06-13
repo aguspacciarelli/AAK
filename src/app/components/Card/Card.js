@@ -10,7 +10,7 @@ const Card = (props) => {
       <h4 className={styles["cardElements"]}>{title}</h4>
       <p className={styles["cardElements"]}>{place}</p>
       </div>
-      <button>Ver más</button>
+      <button className={styles["boton"]}>Ver más</button>
     </div>
   );
 };

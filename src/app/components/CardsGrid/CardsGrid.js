@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "@/app/components/Card/Card";
+import styles from "./CardsGrid.module.css"
 
 const CardsGrid = () => {
   const [data, setData] = useState([]);
@@ -22,7 +23,7 @@ const CardsGrid = () => {
     <div>
       {loading && <p>Loading...</p>}
       {!loading && (
-       <div>
+       <div className={styles["containerCardsGrid"]}>
         {data.map((item)=>{
           return (
             <Card 
