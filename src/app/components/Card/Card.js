@@ -5,7 +5,7 @@ const Card = (props) => {
   const { title, img, place } = props;
   return (
     <div className={styles["container"]}>
-      <Image src={img} alt={title} width={214} height={306} className={styles["cardElements"]}/>
+      <Image src={img} alt={title} width={137} height={183} className={styles["cardElements"]}/>
       <div className={styles["elementsContainer"]}>
       <div className={styles["textContainer"]}>
       <h4 className={styles["cardElements"]}>{title}</h4>

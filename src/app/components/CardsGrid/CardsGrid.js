@@ -14,7 +14,7 @@ const CardsGrid = () => {
         "https://api.harvardartmuseums.org/publication?apikey=9ab8ee4a-51ec-4027-9cb4-5e9535dc9cb7&hasimage=1"
       );
       console.log(response.data);
-      setData(response.data.records);
+      setData(response.data.records.slice(1,10));
       setLoading(false);
     };
     getData();
