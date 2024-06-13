@@ -1,11 +1,9 @@
-import CardsGrid from "@/app/components/CardsGrid/CardsGrid";
-import Card from "@/app/components/Card/Card";
-import Hero from"@/app/components/Hero/Hero"
+import styles from "@/app/contact/page.module.css"
 
 const page = () => {
   return (
     <main>
-        <div>
+        <div className={styles.contenedor} >
            <h1>Contact</h1>  
         </div>
     </main>

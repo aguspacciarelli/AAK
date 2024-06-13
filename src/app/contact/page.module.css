@@ -1,0 +1,11 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contenedor h1{
+    padding: 2em;
+}
