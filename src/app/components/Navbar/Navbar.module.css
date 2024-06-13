@@ -10,12 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     list-style: none;
     gap: 40px;
 }
 
-.menu li a{
+.menu li a{ 
+    text-decoration: none;
     color: black;
 
 }
