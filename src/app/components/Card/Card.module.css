@@ -1,11 +1,11 @@
 .container {
     background-color: #F9F5C4;
     border-radius: 1em;
-    width: 15%;
-    height: 32em;
+    width: 40%;
+    height: 19em;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
     margin: 1em;
     padding: 1em;
@@ -14,25 +14,22 @@
 .elementsContainer {
     display: flex;
     flex-direction: column;
-    
+    text-align: left;
+    align-items: left;
 }
 
 .textContainer {
     padding: 0.125em 1em;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
 }
 
-.cardElements {
-    margin-bottom: 1em;
-    text-align: left;
-    font-size: 1em;
-}
-
 .boton {
+    width: 10em;
     align-items: center;
+    margin: 2em 1em 2em 1em;
     background-clip: padding-box;
     background-color:rgb(184, 134, 87);
     border: 1px solid transparent;
@@ -42,7 +39,8 @@
     color: #fff;
     cursor: pointer;
     display: inline-flex;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
     justify-content: center;
     padding: 1em;
     position: relative;
