@@ -3,7 +3,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: #fefbcf;
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
@@ -16,12 +22,11 @@
 
 .menu li a{ 
     text-decoration: none;
-    color: black;
+    color: #FEFBCF;
 }
 
 .menu li a:hover{ 
     text-decoration: none;
-    color: black;
     font-weight: 600;
     transition: all 250ms;
 }

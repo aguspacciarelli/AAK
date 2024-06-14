@@ -6,13 +6,12 @@ const Navbar = () => {
   return (
     <header className={styles.contenedor}>
       <Image 
-      src='/logo.svg'
+      src='/logo_cremita.svg'
       alt= 'Harvard Museum Logo'
       width={200}
       height={50}
       priority
       />
-
       <nav>
         <ul className={styles.menu}>
           <li>

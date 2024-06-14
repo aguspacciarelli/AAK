@@ -1,11 +1,11 @@
 .contenedorgral {
-    background-color: #FEFBCF;
-    color: black;
+  background-color: black;
+    color: #FEFBCF;
     height: 20%;
     display: flex;
     align-items: center;
-    justify-content: space-between;  
-    padding: 20px;
+    justify-content: center;  
+    padding: 50px;
   }
   
   .nav {
@@ -17,7 +17,7 @@
     display: flex;
     gap: 20px;  
     margin: 0; 
-    padding: 0;  
+    padding: 10px 60px;  
   }
   
   .li {
@@ -27,11 +27,18 @@
   
   .a {
     text-decoration: none;  /* Elimina el subrayado de los enlaces */
-    color: black;
-    font-weight: bold;
+    font-size: 14px;
+    color: #FEFBCF;
+    font-weight: 300;
+  
   }
 
-  .a:hover{
-    text-decoration: underline solid 2px;
+  .a:hover{ 
+    text-decoration: underline solid 1px;
+    transition: all 250ms;
   }
   
+ .socialmedia nav{
+  display: flex;
+  
+ }
