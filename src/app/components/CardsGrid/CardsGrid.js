@@ -20,8 +20,8 @@ const CardsGrid = () => {
     getData();
   }, []);
   return (
-    <div className={styles["containerDestacadas"]}>
-      <h2 className={styles["destacadasElement"]}>Obras destacadas</h2>
+    <div>
+      <h2 className={styles["destacadasElement"]}>Distinguished artwork</h2>
       {loading && <p>Loading...</p>}
       {!loading && (
        <div className={styles["containerCardsGrid"]}>

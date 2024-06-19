@@ -5,7 +5,7 @@ const Hero = ({ mainText }) => {
     <div className={styles["container"]}>
       <div className={styles["hero_bkg"]}>
         <h1>{mainText}</h1>
-        <button>More info</button>
+        <button>More Info</button>
       </div>
     </div>
   );

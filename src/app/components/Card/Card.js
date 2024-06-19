@@ -12,7 +12,7 @@ const Card = (props) => {
       <h4 className={styles["cardElements"]}>{title}</h4>
       <p className={styles["cardElements"]}>{place}</p>
       </div>
-      <Link href={`/publication/${id}`} className={styles["boton"]}>Ver más</Link>
+      <Link href={`/publication/${id}`} className={styles["cardsButton"]}>MORE INFO</Link>
       </div>
     </div>
   );

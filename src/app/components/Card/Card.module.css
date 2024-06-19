@@ -1,6 +1,6 @@
 .container {
-    background-color: #f8ecc5;
-    border-radius: 1em;
+    border: 0.063em solid;
+    border-color: var(--cards-border-color);
     width: 28%;
     height: 12em;
     display: flex;
@@ -9,6 +9,7 @@
     align-items: center;
     margin: 1em;
     padding: 1em;
+    min-width: 22.5em;
 }
 
 .elementsContainer {
@@ -21,7 +22,7 @@
 .textContainer {
     padding: 0.125em 1em;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875em;
     display: flex;
     flex-direction: column;
 }
@@ -34,35 +35,26 @@
     font-style: italic;
 }
 
-.boton {
+.cardsButton {
     width: 7em;
     align-items: center;
+    justify-content: center;
     margin: 2em 1em 2em 1em;
-    background-clip: padding-box;
-    background-color:rgb(184, 134, 87);
-    border: 1px solid transparent;
-    border-radius: 0.5em;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: #fff;
+    background-color: var(--body-color);
+    border: 0.063em solid;
+    border-color: var(--cards-border-color);
+    border-radius: 2em;
+    color: var(--dark-color);
     cursor: pointer;
     display: inline-flex;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 500;
-    justify-content: center;
     padding: 1em;
-    position: relative;
     text-decoration: none;
     transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
 }
 
-.boton:hover {
-    background-color: rgb(192, 128, 67);
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    color: rgb(255, 255, 255);
-    transform: translateY(-1px);
+.cardsButton:hover {
+    background-color: var(--dark-color);
+    color: var(--body-color);
 }
