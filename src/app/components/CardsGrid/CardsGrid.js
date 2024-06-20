@@ -25,14 +25,14 @@ const CardsGrid = () => {
       {loading && <p>Loading...</p>}
       {!loading && (
        <div className={styles["containerCardsGrid"]}>
-        {data.map((datito, item)=>{
+        {data.map((data, item)=>{
           return (
             <Card 
             key={item}
-            title={datito.title}
-            img={datito.primaryimageurl}
-            place={datito.publicationplace}
-            id={datito.id}
+            title={data.title}
+            img={data.primaryimageurl}
+            place={data.publicationplace}
+            id={data.id}
             />
           )
         })}
