@@ -1,4 +1,4 @@
-.fixedImageDiv {
+/* .fixedImageDiv {
     height: 100%;
     margin-right: 2em; 
     float: left;
@@ -28,4 +28,43 @@
     font-size: 1em;
     margin-bottom: 2em ;
     line-height: 1.6em;
+} */
+
+.fixedImageDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  background-image: url('/public/images/about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+.container {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.textContainer {
+  z-index: 1;
+  margin-left: 40%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding:48px 0px 0px 69px;
+  width: 50%;
+}
+
+.container h1 {
+  padding-bottom: 0.9em;
+  padding-top: 0.6 em;
+  font-size: 40px;
+}
+
+.container p {
+  font-size: 1em;
+  margin-bottom: 2em;
+  line-height: 1.6em;
+}
+

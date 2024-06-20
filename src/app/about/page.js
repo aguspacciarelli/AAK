@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <main>
+    <main className={styles.main}>
       <div className={styles.container}>
         <Image
           className={styles.fixedImageDiv}
