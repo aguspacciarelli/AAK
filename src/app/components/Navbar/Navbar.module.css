@@ -4,6 +4,10 @@
     align-items: center;
     padding: 20px 60px;
     background-color: var(--dark-color);
+    /* position: fixed;
+    top: 0;
+    z-index: 1; */
+    width: 95%;
 }
 
 .logo{
