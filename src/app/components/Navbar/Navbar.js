@@ -5,13 +5,16 @@ import styles from "@/app/components/Navbar/Navbar.module.css";
 const Navbar = () => {
   return (
     <header className={styles.contenedor}>
-      <Image 
-      src='/logo_cremita.svg'
-      alt= 'Harvard Museum Logo'
-      width={200}
-      height={50}
-      priority
-      />
+      <Link href="/">
+        <Image 
+        src='/logo_cremita.svg'
+        alt= 'Harvard Museum Logo'
+        width={200}
+        height={50}
+        priority
+        />
+      </Link>
+
       <nav>
         <ul className={styles.menu}>
           <li>
