@@ -8,8 +8,8 @@ const page = () => {
         <div className={styles.fixedImageDiv}>
            <Image
           src='/images/about.jpg'
-          width={600}
-          height={604}
+          width={998}
+          height={1400}
           alt='mujer mirando cuadro'
         />
         </div>
