@@ -6,7 +6,7 @@ import Hero from"@/app/components/Hero/Hero"
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Hero mainText={'Visit Harvard Museum'}/>
+      <Hero mainText={'Visit The Harvard Art Museum'}/>
       <div className={styles["containerCardsGrid"]}>
         <CardsGrid />
       </div>

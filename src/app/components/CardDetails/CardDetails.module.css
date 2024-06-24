@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsContainer {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.generalInformation {
+    margin-top: 2em;
+}
+
+.generalInformation p {
+    margin-top: 0.5em;
+}
+
+.bodyInformation {
+    margin: 2em;
+}

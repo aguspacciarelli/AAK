@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 1.25em 3.75em;
     background-color: var(--dark-color);
     /* position: fixed;
     top: 0;
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 40px;
+    gap: 2.5em;
 }
 
 .menu li a{ 
