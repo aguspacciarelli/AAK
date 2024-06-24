@@ -1,16 +1,13 @@
 'use client;'
 import React from 'react'
 import Image from 'next/image'
+import Card from '@/app/components/Card/Card'
+import CardDetails from '@/app/components/CardDetails/CardDetails'
 
 const page = ({ params }) => {
-    const { id,  img, title } = params
+    const { id } = params
   return (
-    <div>
-      <p>hola {id}
-        {title}
-      </p>
-      <Image src={img} alt={title} width={137} height={183}/>
-    </div>
+    <CardDetails id={id}/>
   )
 }
 
