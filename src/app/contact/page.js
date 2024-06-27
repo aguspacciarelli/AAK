@@ -59,24 +59,27 @@ const page = () => {
                   id='yname'
                   name='yname'
                   placeholder='Your name'
-                ></input>
+                className={styles["inputText"]}></input>
                 <input
                   type='email'
                   id='yemail'
                   name='yemail'
                   placeholder='Your e-mail'
+                  className={styles["inputText"]}
                 ></input>
                 <input
                   type='text'
                   id='subject'
                   name='subject'
                   placeholder='Subject'
+                  className={styles["inputText"]}
                 ></input>
                 <input
                   type='text'
                   id='body'
                   name='body'
                   placeholder='Body'
+                  className={styles["inputText"]}
                 ></input>
                 <input type='submit' value='SUBMIT' className={styles["buttonForm"]}></input>
               </form>

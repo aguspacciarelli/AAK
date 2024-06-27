@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin: 3em 4.5em 3em 4.5em;
 }
 
@@ -62,7 +63,7 @@
 .formContainer {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -73,20 +74,26 @@
     justify-content: center;
 }
 
-.contactForm input {
-    margin: 2em;
+.inputText {
+    font-family: var(--primary-font);
+    margin: 1.5em 1.5em 1.5em 0;
+    padding-right: 20em;
     padding-bottom: 1em;
     border: none;
-    border-bottom: 1px solid #96958E;
+    border-bottom: 1.5px solid #96958E;
 }
 
 .buttonForm {
     cursor: pointer;
+    margin-top: 2em;
     background-color: var(--dark-color);
     color: #fff;
     border: none;
     border-radius: 1.5em;
     padding: 1em;
+    width: 10em;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonForm:hover {
