@@ -1,5 +1,6 @@
 .container {
   background-color: var(--dark-color);
+  font-family: var(--primary-font);
     color: var(--light-text-color);
     height: 20%;
     display: flex;

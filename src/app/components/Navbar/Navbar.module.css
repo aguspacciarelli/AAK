@@ -1,13 +1,10 @@
 .contenedor{
+    font-family: var(--primary-font);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.25em 3.75em;
     background-color: var(--dark-color);
-    /* position: fixed;
-    top: 0;
-    z-index: 1; */
-   /* width: 95%;*/
 }
 
 .logo{

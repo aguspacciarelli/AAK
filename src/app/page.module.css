@@ -1,4 +1,5 @@
 .main {
   width: 100%;
   background-color: var(--body-color);
+  font-family: var(--primary-font);
 }

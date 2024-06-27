@@ -1,4 +1,5 @@
 .container {
+  font-family: var(--primary-font);
   display: flex;
   flex-direction: column;
   justify-content: center;

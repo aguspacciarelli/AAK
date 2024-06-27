@@ -12,6 +12,7 @@
 .container {
   overflow-x: hidden;
   height: 100%;
+  font-family: var(--primary-font);
 }
 
 .textContainer {
