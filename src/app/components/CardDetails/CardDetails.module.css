@@ -1,13 +1,25 @@
 .container {
   font-family: var(--primary-font);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+}
+
+.divDatePlace {
+  margin-top: 2em;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+.divDatePlace p{
+  width: 100%;
 }
 
 .detailsContainer {
-  width: 40%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -15,6 +27,16 @@
 
 .generalInformation {
     margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.generalInformation h2 {
+  margin-right: 5em;
+  margin-left: 5em;
+  width: 60%;
 }
 
 .generalInformation p {
@@ -23,4 +45,14 @@
 
 .bodyInformation {
     margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyInformation p {
+  width: 70%;
+  margin-top: 2em;
+  text-align: justify;
 }

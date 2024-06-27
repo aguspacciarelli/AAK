@@ -22,26 +22,26 @@ function CardDetails({ id }) {
     };
     fetchCardDetails();
   }, [id]);
-//   const getWidth = cardDetails.images[0].width
+  const getPeople = cardDetails.people
   return (
     <div className={styles["container"]}>
+      <div className={styles["divDatePlace"]}><p>{cardDetails.publicationdate}</p></div>
       <div className={styles["detailsContainer"]}>
         <div className={styles["generalInformation"]}>
           <h2>{cardDetails.title}</h2>
-          <p>{cardDetails.publicationplace}</p>
-          <p>{cardDetails.publicationdate}</p>
         </div>
         <div className={styles["bodyInformation"]}>
+          <Image
+            src={cardDetails.primaryimageurl}
+            alt={cardDetails.title}
+            width={444}
+            height={500}
+          />
           <p>{cardDetails.citation}</p>
           <p>{cardDetails.description}</p>
         </div>
-        <Image
-          src={cardDetails.primaryimageurl}
-          alt={cardDetails.title}
-          width={444}
-          height={412}
-        />
       </div>
+      <div className={styles["divDatePlace"]}><p>{cardDetails.publicationplace}</p></div>
     </div>
   );
 }

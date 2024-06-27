@@ -81,12 +81,12 @@
     padding-bottom: 1em;
     border: none;
     outline: none;
-    border-bottom: 1.5px solid #96958E;
+    border-bottom: 0.094em solid #96958E;
 }
 
 .inputText:focus {
     border: none;
-    border-bottom: 1.5px solid #292826;
+    border-bottom: 0.094em solid #292826;
     transition: all 250ms;
 }
 
