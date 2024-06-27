@@ -22,7 +22,7 @@ const CardsGrid = () => {
   return (
     <div>
       <h2 className={styles["destacadasElement"]}>Distinguished artwork</h2>
-      {loading && <p>Loading...</p>}
+      {loading && <p>Loading..</p>}
       {!loading && (
        <div className={styles["containerCardsGrid"]}>
         {data.map((data, item)=>{
