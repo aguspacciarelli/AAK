@@ -14,7 +14,7 @@ function CardDetails({ id }) {
         const response = await axios.get(
           `https://api.harvardartmuseums.org/publication/${id}?apikey=9ab8ee4a-51ec-4027-9cb4-5e9535dc9cb7&hasimage=1`
         );
-        console.log(response.data);
+        console.log(response.data.people[1].name);
         setCardDetails(response.data);
       } catch (error) {
         console.log(error);
@@ -22,10 +22,13 @@ function CardDetails({ id }) {
     };
     fetchCardDetails();
   }, [id]);
-  const getPeople = cardDetails.people
+  const getPeople = cardDetails.people || [];
+
   return (
     <div className={styles["container"]}>
-      <div className={styles["divDatePlace"]}><p>{cardDetails.publicationdate}</p></div>
+      <div className={styles["divDatePlace"]}>
+        <p>{cardDetails.publicationdate}</p>
+      </div>
       <div className={styles["detailsContainer"]}>
         <div className={styles["generalInformation"]}>
           <h2>{cardDetails.title}</h2>
@@ -39,9 +42,19 @@ function CardDetails({ id }) {
           />
           <p>{cardDetails.citation}</p>
           <p>{cardDetails.description}</p>
+          <div className={styles["authorsInformation"]}>
+            {getPeople.map((people, index) => (
+              <div className={styles["authors"]} key={index}>
+                <h4>{people.role}</h4>
+                <p>{people.name}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-      <div className={styles["divDatePlace"]}><p>{cardDetails.publicationplace}</p></div>
+      <div className={styles["divDatePlace"]}>
+        <p>{cardDetails.publicationplace}</p>
+      </div>
     </div>
   );
 }
