@@ -1,4 +1,4 @@
-.contenedor{
+.container{
     font-family: var(--primary-font);
     display: flex;
     justify-content: center;
@@ -7,6 +7,91 @@
     flex-direction: column;
 }
 
-.contenedor h1{
+.container h1{
     padding: 2em;
+}
+
+.contactBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3em 4.5em 3em 4.5em;
+}
+
+.contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.museumContact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.museumContact h4 {
+    margin-bottom: 0.5em;
+}
+
+.museumContact ul {
+    list-style: none;
+}
+
+.museumAddresses {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+}
+
+.museumAddresses h4 {
+    margin-bottom: 0.5em;
+}
+
+.museumAddresses ul {
+    list-style: none;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.contactForm input {
+    margin: 2em;
+    padding-bottom: 1em;
+    border: none;
+    border-bottom: 1px solid #96958E;
+}
+
+.buttonForm {
+    cursor: pointer;
+    background-color: var(--dark-color);
+    color: #fff;
+    border: none;
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+.buttonForm:hover {
+    transition: all 250ms;
+    background-color: #96958E;
+    color: #fff;
+    border: 1px solid #96958E;
 }
