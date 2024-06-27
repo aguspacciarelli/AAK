@@ -80,8 +80,16 @@
     padding-right: 20em;
     padding-bottom: 1em;
     border: none;
+    outline: none;
     border-bottom: 1.5px solid #96958E;
 }
+
+.inputText:focus {
+    border: none;
+    border-bottom: 1.5px solid #292826;
+    transition: all 250ms;
+}
+
 
 .buttonForm {
     cursor: pointer;
