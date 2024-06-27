@@ -1,66 +1,65 @@
 .container {
   background-color: var(--dark-color);
   font-family: var(--primary-font);
-    color: var(--light-text-color);
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    padding: 3.125em;
-    overflow: hidden;
-  }
+  color: var(--light-text-color);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.125em;
+  overflow: hidden;
+}
 
-  .icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .socialmedia {
-    display: flex;
-  }
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .media {
-    list-style: none;  
-    display: flex;
-    gap: 1.25em;  
-    margin: 0; 
-    padding: 0.625em 3.75em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+.socialmedia {
+  display: flex;
+}
 
-  .utilities {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.75em;
-  }
+.media {
+  list-style: none;
+  display: flex;
+  gap: 1.25em;
+  margin: 0;
+  padding: 0.625em 3.75em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-  .utilitiesList {
-    margin-bottom: 2em;
-  }
-  
-  .utilitiesItems {
-    display: flex;
-    align-items: center;
-  }
+.utilities {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75em;
+}
 
-  .utilitiesATag {
-    color: var(--light-text-color);
-  }
-  
-  .a {
-    text-decoration: none; 
-    font-size: 1.2em;
-    color: var(--light-text-color);
-    font-weight: 300;
-  
-  }
+.utilitiesList {
+  margin-bottom: 2em;
+}
 
-  .a:hover{ 
-    text-decoration: underline solid 0.063em;
-    transition: all 250ms;
-  }
+.utilitiesItems {
+  display: flex;
+  align-items: center;
+}
+
+.utilitiesATag {
+  color: var(--light-text-color);
+}
+
+.a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: var(--light-text-color);
+  font-weight: 300;
+}
+
+.a:hover {
+  text-decoration: underline solid 0.063em;
+  transition: all 250ms;
+}

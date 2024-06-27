@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Hero.module.css";
 
 const Hero = ({ mainText }) => {
@@ -5,7 +6,7 @@ const Hero = ({ mainText }) => {
     <div className={styles["container"]}>
       <div className={styles["hero_bkg"]}>
         <h1>{mainText}</h1>
-        <button>More Info</button>
+        <Link href="/visit"><button>More info</button></Link>
       </div>
     </div>
   );

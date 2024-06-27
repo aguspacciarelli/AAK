@@ -1,0 +1,85 @@
+.container{
+  font-family: var(--primary-font);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.750), rgba(0, 0, 0, 0.750)),
+    url("/images/visit.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40em;
+  width: 100%;
+  display: flex;
+}
+
+.textContainer{
+    color:#F7F6EC;
+    margin: 9em 14em 10em 8em;
+}
+
+.textContainer h1{
+    font-size: 2.875em;
+    padding-bottom: 0.20em;
+}
+
+
+.textContainer h6{
+    font-size: 1.063em;
+    line-height: 2em;
+    font-weight: 400;
+    padding-bottom: 1.6em;
+}
+
+.textContainer p{
+    font-size: 0.91em;
+    padding-top: 1em;
+
+}
+
+.a{
+    text-decoration: none;
+    color: #F7F6EC;
+}
+
+.a:hover{
+    text-decoration: underline solid 0.063em;
+    transition: all 250ms;
+}
+
+
+.container button{
+    margin-top: 3em;
+    align-items: center;
+    background-clip: padding-box;
+    background-color:var(--light-text-color);
+    border: 0.063em solid transparent;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 0.063em 0.188em 0;
+    box-sizing: border-box;
+    color: var(--dark-color);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0.em;
+    min-height: 3rem;
+    padding: 1.325em 2.5em;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .container button:hover,
+  .container button:focus {
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.25em 0.75em;
+    color:#FEFBCF;
+  }
