@@ -94,11 +94,12 @@
     width: 10em;
     justify-content: center;
     align-items: center;
+    border: 1px solid transparent;
 }
 
 .buttonForm:hover {
     transition: all 250ms;
-    background-color: #96958E;
+    background-color: #634203;
     color: #fff;
-    border: 1px solid #96958E;
+    border: 1px solid #634203;
 }
