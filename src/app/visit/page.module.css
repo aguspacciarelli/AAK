@@ -45,6 +45,14 @@
     transition: all 250ms;
 }
 
+.containerIcon{
+display: flex;
+align-items: baseline;
+
+}
+.icons{
+    padding-right: 0.8em;
+    }
 
 .container button{
     margin-top: 3em;
